@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 In this project I am practicing the knowledge I get while walking through the "ng-book: The complete book on Angular 7" book.
 
+You can see the project running on [zeit.co/now](https://angular-reddit-ekluwqiqf.now.sh/).
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

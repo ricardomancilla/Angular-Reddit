@@ -1,5 +1,5 @@
 export class Article {
-    constructor(private title: string, private link: string, private votes: number = 0){
+    constructor(public title: string, public link: string, private votes: number = 0){
     }
 
     getVotes(): number {
