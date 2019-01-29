@@ -1,9 +1,17 @@
 export class Article {
-    constructor(public title: string, public link: string, private votes: number = 0){
+    constructor(private title: string, private link: string, private votes: number = 0){
     }
 
     getVotes(): number {
         return this.votes;
+    }
+
+    getTitle() {
+        return this.title;
+    }
+
+    getLink() {
+        return this.link;
     }
 
     voteUp(){

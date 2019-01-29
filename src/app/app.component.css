@@ -1,0 +1,7 @@
+.animedBtn {
+    transition: 0.3s;
+}
+
+.animedBtn:hover {
+    transform: scale(1.1);
+}

@@ -5,8 +5,8 @@
   </div>
 </div>
 <div class="twelve wide column">
-  <a href="{{ article.link }}" class="ui large header">
-    {{ article.title }}
+  <a href="{{ article.getLink() }}" class="ui large header">
+    {{ article.getTitle() }}
   </a>
   <div class="meta">({{ article.domain() }})</div>
   <ul class="ui big horizontal list voters">
